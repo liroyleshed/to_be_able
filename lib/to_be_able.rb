@@ -7,4 +7,6 @@ end
 
 require_relative "to_be_able/ability"
 require_relative "to_be_able/permission"
+require_relative "to_be_able/law"
+require_relative "to_be_able/registry"
 require_relative "to_be_able/version"
