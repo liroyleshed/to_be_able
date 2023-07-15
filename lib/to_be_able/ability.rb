@@ -1,19 +1,17 @@
 module ToBeAble::Ability
-    def can
-      
-    end
+  def can
+  end
+    
+  def cant
+    !can
+  end
 
-    def cant
-      !can
-    end
 
+  def can?
 
-    def can?
-      
-    end
+  end
 
-    def cant?
-      !can?
-    end
+  def cant?
+    !can?
   end
 end
