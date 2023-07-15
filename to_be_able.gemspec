@@ -7,6 +7,7 @@ Gem::Specification.new do |spec|
   spec.version = ToBeAble::VERSION
   spec.authors = ["Liroy Leshed"]
   spec.email = ["liroy@tycooncrm.com"]
+  spec.homepage = "https://github.com/liroyleshed/to_be_able"
 
   spec.summary = "Simple permissions solution for Rails."
   spec.description = "Simple permissions solution for Rails which is decoupled from user roles. All permissions are stored in a single location."
