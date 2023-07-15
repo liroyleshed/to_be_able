@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Liroy Leshed"]
   spec.email = ["liroy@tycooncrm.com"]
 
-  spec.summary = "Simple authorization solution for Rails."
-  spec.description = "Simple authorization solution for Rails which is decoupled from user roles. All permissions are stored in a single location."
+  spec.summary = "Simple permissions solution for Rails."
+  spec.description = "Simple permissions solution for Rails which is decoupled from user roles. All permissions are stored in a single location."
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
