@@ -1,6 +1,6 @@
 # To Be Able
 
-Simple authorization solution for Rails.
+Simple permissions solution for Rails.
 
 ## Installation
 
