@@ -39,7 +39,7 @@ module ToBeAble::Ability
       {
         read:   [:index, :show],
         create: [:new],
-        update: [:edit],
+        update: [:edit]
       }
     end
 end
