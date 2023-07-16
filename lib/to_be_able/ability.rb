@@ -33,4 +33,13 @@ module ToBeAble::Ability
 
   def permit!
   end
+
+  private
+    def default_actions
+      {
+        read:   [:index, :show],
+        create: [:new],
+        update: [:edit],
+      }
+    end
 end
