@@ -29,4 +29,8 @@ module ToBeAble::Ability
   def isnt_able_to?
     !is_able_to?
   end
+
+
+  def permit!
+  end
 end
