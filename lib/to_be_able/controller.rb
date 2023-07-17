@@ -1,0 +1,2 @@
+class ToBeAble::Controller
+end
