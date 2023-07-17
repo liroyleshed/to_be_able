@@ -1,5 +1,5 @@
 module ToBeAble::Ability
-  def can
+  def can(perform_action, on_resource)
   end
 
   def cant
