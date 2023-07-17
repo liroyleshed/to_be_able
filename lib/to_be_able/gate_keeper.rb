@@ -1,7 +1,7 @@
 class ToBeAble::GateKeeper
-  def lock
+  def lock(gate)
   end
 
-  def unlock
+  def unlock(gate)
   end
 end
