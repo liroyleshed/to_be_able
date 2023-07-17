@@ -42,9 +42,9 @@ module ToBeAble::Ability
   private
     def default_actions
       {
-        read:   [:index, :show],
-        create: [:new],
-        update: [:edit]
+        read:   %w(index show),
+        create: %w(new),
+        update: %w(edit)
       }
     end
 end
