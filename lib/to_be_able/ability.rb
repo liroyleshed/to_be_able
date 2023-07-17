@@ -2,8 +2,7 @@ module ToBeAble::Ability
   def can(perform_action, on_resource)
   end
 
-  def cant
-    !can
+  def cant(perform_action, on_resource)
   end
 
 
@@ -20,7 +19,7 @@ module ToBeAble::Ability
   end
 
   def isnt_able_to
-    !is_able_to
+    cant
   end
 
   def is_able_to?
