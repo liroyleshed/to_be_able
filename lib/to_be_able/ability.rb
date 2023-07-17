@@ -34,6 +34,10 @@ module ToBeAble::Ability
   def permit!
   end
 
+  def unpermitted_message
+    "You do not have access to this zone."
+  end
+
   private
     def default_actions
       {
