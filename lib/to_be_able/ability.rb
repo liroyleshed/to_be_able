@@ -29,6 +29,7 @@ module ToBeAble::Ability
   end
 
   def is_able_to?
+    can?
   end
 
   def isnt_able_to?
