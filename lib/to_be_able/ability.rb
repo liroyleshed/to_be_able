@@ -14,12 +14,12 @@ module ToBeAble::Ability
   end
 
 
-  def is_able_to
-    can
+  def is_able_to(perform_action, on_resource)
+    can(perform_action, on_resource)
   end
 
-  def isnt_able_to
-    cant
+  def isnt_able_to(perform_action, on_resource)
+    cant(perform_action, on_resource)
   end
 
   def is_able_to?
