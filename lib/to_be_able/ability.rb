@@ -1,7 +1,7 @@
 module ToBeAble::Ability
   def can
   end
-    
+
   def cant
     !can
   end
