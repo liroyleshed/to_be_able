@@ -30,7 +30,7 @@ module ToBeAble::Ability
   end
 
 
-  def permit!
+  def permit!(action, for_resource)
   end
 
   UNPERMITTED_MESSAGE = "You do not have access to this zone."
