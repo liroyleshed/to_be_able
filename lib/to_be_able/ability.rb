@@ -34,8 +34,9 @@ module ToBeAble::Ability
   def permit!
   end
 
+  UNPERMITTED_MESSAGE = "You do not have access to this zone."
   def unpermitted_message
-    "You do not have access to this zone."
+    UNPERMITTED_MESSAGE
   end
 
   private
