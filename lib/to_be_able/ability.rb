@@ -53,7 +53,8 @@ module ToBeAble::Ability
         create: %w(new create).map(&:to_sym),
         update: %w(edit update).map(&:to_sym),
         delete: %w(destroy).map(&:to_sym),
-        manage: %w(index show new create edit update destroy).map(&:to_sym)
+        manage: %w(index show new create edit update destroy).map(&:to_sym),
+        all:    %w(index show new create edit update destroy).map(&:to_sym)
       }
     end
 end
