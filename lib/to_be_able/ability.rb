@@ -12,10 +12,10 @@ module ToBeAble::Ability
   end
 
 
-  def can?
+  def can?(*args)
   end
 
-  def cant?
+  def cant?(*args)
     !can?
   end
 
@@ -28,11 +28,11 @@ module ToBeAble::Ability
     cant(perform_action, on_resource)
   end
 
-  def is_able_to?
+  def is_able_to?(*args)
     can?
   end
 
-  def isnt_able_to?
+  def isnt_able_to?(*args)
     !is_able_to?
   end
 
