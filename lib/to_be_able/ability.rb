@@ -16,7 +16,7 @@ module ToBeAble::Ability
   end
 
   def cant?(*args)
-    !can?
+    !can?(*args)
   end
 
 
