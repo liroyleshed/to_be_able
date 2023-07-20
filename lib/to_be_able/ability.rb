@@ -1,14 +1,14 @@
 module ToBeAble::Ability
   def can(perform_action, on_resource)
-    @registry   = ::Registry.new
-    @permission = ::Permission.new
-    @law        = ::Law.new
+    @registry   = ToBeAble::Registry.new
+    @permission = ToBeAble::Permission.new
+    @law        = ToBeAble::Law.new
   end
 
   def cant(perform_action, on_resource)
-    @registry   = ::Registry.new
-    @permission = ::Permission.new
-    @law        = ::Law.new
+    @registry   = ToBeAble::Registry.new
+    @permission = ToBeAble::Permission.new
+    @law        = ToBeAble::Law.new
   end
 
 
