@@ -32,10 +32,10 @@ module ToBeAble
 
       # Override if override_conditions_hash_matching? returns true
       def matches_conditions_hash?(resource, conditions)
-        raise NotImplemented, "This model adapter does not support matching on a conditions hash."
+        raise NotImplemented, "This adapter does not support matching on a conditions hash."
       end
 
-      # Used to determine if this model adapter will override the matching behavior for a specific condition.
+      # Used to determine if this adapter will override the matching behavior for a specific condition.
       # If this returns true then matches_condition? will be called.
       def override_condition_matching?(resource, name, value)
         false
@@ -43,7 +43,7 @@ module ToBeAble
 
       # Override if override_condition_matching? returns true
       def matches_condition?(resource, name, value)
-        raise NotImplemented, "This model adapter does not support matching on a specific condition."
+        raise NotImplemented, "This adapter does not support matching on a specific condition."
       end
     end
 
