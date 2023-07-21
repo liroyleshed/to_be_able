@@ -25,7 +25,7 @@ module ToBeAble
       end
 
       # Used to determine if this model adapter will override the matching behavior for a hash of conditions.
-      # If this returns true then matches_conditions_hash? will be called. See Rule#matches_conditions_hash
+      # If this returns true then matches_conditions_hash? will be called.
       def override_conditions_hash_matching?(subject, conditions)
         false
       end
@@ -36,7 +36,7 @@ module ToBeAble
       end
 
       # Used to determine if this model adapter will override the matching behavior for a specific condition.
-      # If this returns true then matches_condition? will be called. See Rule#matches_conditions_hash
+      # If this returns true then matches_condition? will be called.
       def override_condition_matching?(subject, name, value)
         false
       end
@@ -53,7 +53,7 @@ module ToBeAble
     end
 
     def records
-      # This should be overridden in a subclass to return records which match @rules
+      # This should be overridden in a subclass to return records which match @laws
       raise NotImplemented, "This model adapter does not support fetching records from the database."
     end
   end
