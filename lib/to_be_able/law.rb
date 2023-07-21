@@ -3,5 +3,6 @@ class ToBeAble::Law
     @permitted = permitted
     @action    = action
     @resource  = resource
+    @block     = block
   end
 end
