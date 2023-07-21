@@ -51,12 +51,12 @@ module ToBeAble::Ability
 
     def default_actions
       {
-        read:   %i[index show],
-        create: %i[new create],
-        update: %i[edit update],
-        delete: %i[destroy],
-        manage: %i[index show new create edit update destroy],
-        all:    %i[index show new create edit update destroy]
+        read:   %i[ index show ],
+        create: %i[ new create ],
+        update: %i[ edit update ],
+        delete: %i[ destroy ],
+        manage: %i[ index show new create edit update destroy ],
+        all:    %i[ index show new create edit update destroy ]
       }
     end
 end
