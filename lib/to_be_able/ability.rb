@@ -1,10 +1,10 @@
 module ToBeAble::Ability
   def can(perform_action, on_resource, &block)
-    @law = ToBeAble::Law.new(true)
+    @law = ToBeAble::Law.new(permitted: true)
   end
 
   def cant(perform_action, on_resource, &block)
-    @law = ToBeAble::Law.new(false)
+    @law = ToBeAble::Law.new(permitted: false)
   end
 
 
