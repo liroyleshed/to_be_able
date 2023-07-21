@@ -1,9 +1,10 @@
 class ToBeAble::Registry
   def initialize()
-    @registry = {}
+    @registry = []
   end
 
   def register(law)
+    @registry << law
   end
 
   def unregister(law)
