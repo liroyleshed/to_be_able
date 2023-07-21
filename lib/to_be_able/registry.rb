@@ -8,5 +8,6 @@ class ToBeAble::Registry
   end
 
   def unregister(law)
+    @registry.delete(law)
   end
 end
