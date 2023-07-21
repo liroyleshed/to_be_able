@@ -45,6 +45,10 @@ module ToBeAble::Ability
   end
 
   private
+    def registry
+      @registry ||= ToBeAble::Registry.new
+    end
+
     def default_actions
       {
         read:   %i[index show],
@@ -54,9 +58,5 @@ module ToBeAble::Ability
         manage: %i[index show new create edit update destroy],
         all:    %i[index show new create edit update destroy]
       }
-    end
-
-    def registry
-      @registry ||= ToBeAble::Registry.new
     end
 end
