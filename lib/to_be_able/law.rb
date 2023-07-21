@@ -1,8 +1,7 @@
 class ToBeAble::Law
-  def  initialize(permitted: false, action, resource, &block)
+  def  initialize(permitted: false, action: action, resource: resource)
     @permitted = permitted
     @action    = action
     @resource  = resource
-    @block     = block
   end
 end
